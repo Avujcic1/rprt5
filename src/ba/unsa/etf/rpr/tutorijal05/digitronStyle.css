@@ -1,7 +1,9 @@
-#result {
-    -fx-background-color: #61f45f;
+#display{
+    -fx-background-color: lightgreen;
 }
-
-#rez {
-    -fx-background-color: #ff7f7f
+#equalsBtn{
+    -fx-background-color: rgb(230,110,122);
+}
+#equalsBtn:hover{
+    -fx-background-color:coral;
 }
