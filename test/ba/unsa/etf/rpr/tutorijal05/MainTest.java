@@ -106,4 +106,16 @@ class MainTest {
         robot.clickOn("#btn0");
         assertEquals("10", display.getText());
     }
+
+    @Test
+    public void divideBtn (FxRobot robot) {
+        display = robot.lookup("#display").queryAs(Label.class);
+        robot.clickOn("#btn6");
+        robot.clickOn("#btn4");
+        robot.clickOn("#divideBtn");
+        robot.clickOn("#btn4");
+        robot.clickOn("#equalsBtn");
+        assertEquals("16.0", display.getText());
+    }
+    
 }
